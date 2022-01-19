@@ -1,4 +1,4 @@
-export default class crollSuave {
+export default class scrollSuave {
   constructor(links, options) {
     this.linksInternos = document.querySelectorAll(links);
 
