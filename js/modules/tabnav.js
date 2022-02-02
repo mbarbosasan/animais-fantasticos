@@ -23,8 +23,8 @@ export default class TabNav {
 
   init() {
     if (this.tabMenu.length && this.tabContent.length) {
-      this.addTabNavEvent();
       this.activeTab(0);
+      this.addTabNavEvent();
     }
   }
 }
