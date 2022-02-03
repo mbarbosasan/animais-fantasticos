@@ -17,11 +17,11 @@ export default class Tooltip {
 
   onMouseLeave({ currentTarget }) {
     this.tooltipBox.remove();
-    currentTarget.currentTarget.removeEventListener(
+    currentTarget.removeEventListener(
       "mouseleave",
       this.onMouseLeave
     );
-    currentTarget.currentTarget.removeEventListener(
+    currentTarget.removeEventListener(
       "mousemove",
       this.onMouseMove
     );
