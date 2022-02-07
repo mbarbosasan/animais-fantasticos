@@ -32,17 +32,17 @@ modal.init();
 const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
 
-fetchAnimais("../../animaisapi.json", ".numeros-grid");
+fetchAnimais("./animaisapi.json", ".numeros-grid");
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
-const dropdownMenu = new DropdownMenu('[data-dropdown]');
+const dropdownMenu = new DropdownMenu("[data-dropdown]");
 dropdownMenu.init();
 
-const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]')
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-const funcionamento = new Funcionamento('[data-semana]', 'active');
-funcionamento.init(); 
+const funcionamento = new Funcionamento("[data-semana]", "active");
+funcionamento.init();
