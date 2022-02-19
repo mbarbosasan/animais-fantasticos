@@ -1,3 +1,4 @@
+/* eslint-disable max-classes-per-file */
 import debounce from './debounce.js';
 
 export class Slide {
@@ -74,7 +75,7 @@ export class Slide {
     this.wrapper.addEventListener('touchend', this.onEnd)
 
   }
-  //Slides config
+  // Slides config
 
   slidePosition(slide) {
     const margin = (this.wrapper.offsetWidth - slide.offsetWidth) / 2;
